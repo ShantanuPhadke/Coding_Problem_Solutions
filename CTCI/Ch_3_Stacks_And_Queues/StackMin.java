@@ -13,6 +13,7 @@ public class StackMin{
 			head = new MinStackNode(value, null);
 		}else{
 			MinStackNode newHead = new MinStackNode(value, head);
+			
 			head = newHead;
 		}
 	}
